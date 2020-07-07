@@ -1,0 +1,19 @@
+.hw{
+    text-align: center;
+}
+.hw:before {
+    position: relative;
+    content: "　";
+    /* right: 0;
+    letter-spacing: 0; */
+    background: url("/resources/img/talks_r.png") 0 50% no-repeat local;
+    background-size: contain;
+}
+.hw::after {
+    position: relative;
+    content: "　";
+    /* right: 0;
+    letter-spacing: 0; */
+    background: url("/resources/img/talks.png") 0 50% no-repeat local;
+    background-size: contain;
+}
