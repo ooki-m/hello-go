@@ -9,7 +9,7 @@ import (
 func main() {
 	router := gin.Default()
 	router.LoadHTMLGlob("views/*.html")
-	router.Static("/resources", "./resources") // static
+	router.Static("/resources", "./resources")
 	router.GET("/", func(ctx *gin.Context) {
 		ctx.HTML(http.StatusOK, "index.html", gin.H{})
 	})
