@@ -1,5 +1,5 @@
 module goapp
 
-go 1.14
+go 1.16
 
-require github.com/gin-gonic/gin v1.6.2 // indirect
+require github.com/gin-gonic/gin v1.7.2 // indirect
