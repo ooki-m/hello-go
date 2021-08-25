@@ -16,5 +16,9 @@ func main() {
 		log.Println(ctx.ClientIP())
 		ctx.HTML(http.StatusOK, "index.html", gin.H{})
 	})
-	router.Run(":8080")
+	router.GET("/hello", func(ctx *gin.Context) {
+		log.Println(ctx.ClientIP())
+		ctx.HTML(http.StatusOK, "index.html", gin.H{})
+	})
+	router.Run(":8081")
 }

@@ -1,1 +1,1 @@
-module goapp
+module hello-go
