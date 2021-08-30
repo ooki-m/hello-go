@@ -6,4 +6,4 @@ WORKDIR /go/src/v1/repos/ooki
 COPY . /go/src/v1/repos/ooki
 RUN go build
 
-CMD ["./goapp"]
+CMD ["./hello-go"]
